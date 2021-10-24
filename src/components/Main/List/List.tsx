@@ -3,7 +3,7 @@ import { List as MUIList, ListItem, ListItemAvatar, ListItemText, Avatar, ListIt
 import { Delete, MoneyOff } from "@material-ui/icons";
 
 import useStyles from './styles';
-import { ExpenseTrackerContext, transactionType } from '../../../context/context';
+import { ExpenseTrackerContext } from '../../../context/context';
 
 
 const List: React.FC = () => {
